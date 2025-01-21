@@ -36,3 +36,10 @@ feature_row:
 ---
 
 {% include feature_row %} 
+
+
+A text
+
+## a title
+
+Another text in **bold**
