@@ -1,3 +1,5 @@
+{::nomarkdown}
+
 {% if include.id %}
   {% assign feature_row = page[include.id] %}
 {% else %}
@@ -43,3 +45,5 @@
   {% endfor %}
 
 </div>
+
+{:/nomarkdown}
