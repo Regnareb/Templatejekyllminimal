@@ -16,7 +16,7 @@
 
         {% if f.video_path %}
           <div class="archive__item-teaser">
-            <video playsinline="" autoplay="" muted="" loop="">
+            <video style="width:100%" playsinline="" autoplay="" muted="" loop="">
               <source src="{{ f.video_path | relative_url }}" type="video/mp4">
             </video>
             {% if f.image_caption %}
@@ -47,7 +47,7 @@
           {% endif %}
 
 
-          {% if f.url %}{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }} </a>{% endif %}
+          {% if f.url %}"Learn More" </a>{% endif %}
 
         </div>
       </div>
