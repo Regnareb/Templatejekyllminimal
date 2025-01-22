@@ -13,7 +13,7 @@
         {% if f.video_path %}
           <div class="archive__item-teaser">
             <video playsinline="" autoplay="" muted="" loop="">
-              <source src="{{ f.cideo_path | relative_url }}" type="video/mp4">
+              <source src="{{ f.video_path | relative_url }}" type="video/mp4">
             </video>
             {% if f.image_caption %}
               <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
