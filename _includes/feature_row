@@ -9,8 +9,28 @@
   {% for f in feature_row %}
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="archive__item">
-        
-        sdfsdfsdfsdf
+
+        {% if f.video_path %}
+          <div class="archive__item-teaser">
+            <video playsinline="" autoplay="" muted="" loop="">
+              <source src="{{ f.cideo_path | relative_url }}" type="video/mp4">
+            </video>
+            {% if f.image_caption %}
+              <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        {% if f.image_path %}
+          <div class="archive__item-teaser">
+            <img src="{{ f.image_path | relative_url }}"
+                 alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+            {% if f.image_caption %}
+              <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+            {% endif %}
+          </div>
+        {% endif %}
+
         <div class="archive__item-body">
           {% if f.title %}
             <h2 class="archive__item-title">{{ f.title }}</h2>
