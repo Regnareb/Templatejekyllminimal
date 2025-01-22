@@ -11,6 +11,7 @@
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="archive__item">
 
+        {% if f.url %}<a href="{{ f.url | relative_url }}">{% endif %}
 
 
         {% if f.video_path %}
@@ -46,8 +47,7 @@
           {% endif %}
 
 
-          {% if f.url %}<a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }}">
-          {{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }} </a>{% endif %}
+          {% if f.url %}{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }} </a>{% endif %}
 
         </div>
       </div>
