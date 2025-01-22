@@ -13,6 +13,7 @@ excerpt: >
   <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.26.2">Latest release v4.26.2</a></small>
 feature_row:
   - video_path: /assets/videos/auto_connect_nodes.mp4
+    image_caption: 'Image caption'
     title: "Super customizable"
     excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
     url: "/docs/configuration/"
@@ -20,6 +21,7 @@ feature_row:
     btn_label: "Learn more"
   - image_path: /assets/videos/auto_connect_nodes.mp4
     alt: "fully responsive"
+    image_caption: 'Image caption'
     title: "Responsive layouts"
     excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
     url: "/docs/layouts/"
