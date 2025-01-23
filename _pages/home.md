@@ -6,14 +6,15 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
+    - label: "<i class='fas fa-download'></i> Install now 
+   <button onclick="copy_to_clipboard()">⧉</button>"
       url: "/docs/quick-start-guide/"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.26.2">Latest release v4.26.2</a></small>
+  A collection of tools to set default preferences automatically and make Houdini more usable and stable.<br />
+  To install: <a href="https://raw.githubusercontent.com/Regnareb/Houdini/refs/heads/main/python2.7libs/tools/installer.py">paste this script</a> to Houdini > Window > Python Source Editor > Accept
+  <small><a href="https://github.com/Regnareb/Houdini/releases">Latest release v0.3.1</a></small>
 feature_row:
   - video_path: /assets/videos/auto_connect_nodes.mp4
-    image_caption: 'Image caption'
     title: "Super customizable"
     excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
     url: "/docs/configuration/"
@@ -21,7 +22,6 @@ feature_row:
     btn_label: "Learn more"
   - image_path: /assets/videos/auto_connect_nodes.mp4
     alt: "fully responsive"
-    image_caption: 'Image caption'
     title: "Responsive layouts"
     excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
     url: "/docs/layouts/"
