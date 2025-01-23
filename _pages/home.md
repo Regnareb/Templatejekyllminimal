@@ -47,7 +47,7 @@ feature_row:
   <div class="column" markdown="1"  >
 
     
-## Default Preferences
+# Default Preferences
 - Disable Nodes Shapes
 - Use Simple Node Shapes
 - Disable Auto Move Nodes
@@ -79,7 +79,7 @@ This will make loading the scenes faster and more stable.
 <hr>
 
 # Network View Improvements 
-
+<br>
 {% include feature_row %} 
 
 
