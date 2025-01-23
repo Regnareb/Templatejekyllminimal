@@ -24,8 +24,8 @@ search: false
     background-color: grey;
      &:hover { 
           color: inherit; 
-          text-decoration: inherit; 
-          background-color: grey;
+          text-decoration: inherit !important; 
+          background-color: grey !important;
         }
   } 
 }
