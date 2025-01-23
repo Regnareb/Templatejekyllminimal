@@ -24,8 +24,8 @@ function videoScroll() {
 
 
 
-function copy_to_clipboard() {
-  fetch("https://raw.githubusercontent.com/Regnareb/Houdini/refs/heads/main/python2.7libs/tools/installer.py").then(function(response) {
+function copy_to_clipboard(url) {
+  fetch(url).then(function(response) {
       response.text().then(function(text) {
         navigator.clipboard.writeText(text);
       });
