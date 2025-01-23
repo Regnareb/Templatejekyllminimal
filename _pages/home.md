@@ -27,7 +27,7 @@ feature_row:
     url: "/docs/layouts/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - video_path: /assets/images/mm-free-feature.png
+  - video_path: /assets/videos/auto_connect_nodes.mp4
     alt: "100% free"
     title: "Alt+click to create Nulls"
     excerpt: "automatically create Nulls with correct names for all selected nodes"
@@ -35,8 +35,8 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - video_path: /assets/videos/auto_connect_nodes.mp4
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+    title: "Connect nodes by height position"
+    excerpt: "press Shift+Y amd all selected nodes will be connected in the order of their height"
     url: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"   
