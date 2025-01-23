@@ -58,7 +58,7 @@ feature_row:
 - Set UI to Compact Mode
 - Startup with a specific Desktop
 
-- 
+
 </div>
 <div class="column">
 
