@@ -13,7 +13,7 @@ header:
 excerpt: >
   A collection of tools to set default preferences automatically and make Houdini more usable and <acronym title="https://raw.githubusercontent.com/Regnareb/Houdini/refs/heads/main/python2.7libs/tools/installer.py" >stable</acronym>.<br />
   <small><a href="https://github.com/Regnareb/Houdini/releases/latest">Latest release v0.3.1</a></small>
-feature_row:
+feature_row2:
   - video_path: /assets/videos/auto_connect_nodes.mp4
     title: "Super customizable"
     excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
