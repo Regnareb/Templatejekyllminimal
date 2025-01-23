@@ -15,4 +15,9 @@ search: false
     display: block;
     margin: 0;
   }
+
+  a {
+  @extend p;
+    
+  } 
 }
