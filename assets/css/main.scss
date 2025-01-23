@@ -21,7 +21,7 @@ search: false
   a {
     color: inherit; /* blue colors for links too */
     text-decoration: inherit; 
-    background-color: grey;
+    background-color: grey !important;
      &:hover { 
           color: inherit; /* blue colors for links too */
           text-decoration: inherit; 
