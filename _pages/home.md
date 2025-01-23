@@ -43,8 +43,8 @@ feature_row:
 ---
 
 
-<div class="row" markdown="1" >
-  <div class="column">
+<div class="row">
+  <div class="column" markdown="1"  >
 
     
 ## Default Preferences
@@ -60,7 +60,7 @@ feature_row:
 
 
 </div>
-<div class="column">
+<div class="column" markdown="1" >
 
 
   
