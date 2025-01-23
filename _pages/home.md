@@ -6,7 +6,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
-    - label: "<i class='fas fa-download'></i> Install now <button onclick="copy_to_clipboard('two')">copy second</button>"
+    - label: "<i class='fas fa-download'></i> Install now <button onclick=\"copy_to_clipboard('two')\" >⧉</button>"
       url: "/docs/quick-start-guide/"
 excerpt: >
   A collection of tools to set default preferences automatically and make Houdini more usable and stable.<br />
