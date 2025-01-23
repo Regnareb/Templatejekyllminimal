@@ -62,7 +62,8 @@ feature_row:
 </div>
 <div class="column" markdown="1" >
   
-## On Scene Open
+# On Scene Open
+
 - Apply the default Desktop
 - Set Cooking mode to Manual
 - Set view to “Show Display Operator” ~~Not possible yet~~
@@ -77,11 +78,22 @@ This will make loading the scenes faster and more stable.
 
 <hr>
 
+# Network View Improvements 
+
 {% include feature_row %} 
 
 
-A text
+# Shortcuts
+- Paste parameters (Ctrl+Shift+C / Ctrl+Shift+V)
+- Change particle types of display (Shift+D)
+- Show dependency links (Ctrl+D)
+- Toggle cooking mode (F10)
+- Changing viewport background color (Shift+B):
 
-## a title
 
-Another text in **bold**
+- Scrub Timeline (K) (Video)
+
+- Network Clipboard - Send selected nodes to another user on the same network
+
+
+
