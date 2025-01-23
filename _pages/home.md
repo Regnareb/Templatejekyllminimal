@@ -43,23 +43,25 @@ feature_row:
 ---
 
 ## Default Preferences
-Disable Nodes Shapes
-Use Simple Node Shapes
-Disable Auto Move Nodes
-Disable Nodes Animations
-Set Low Size to Show Ring
-Show Displayed Node instead of Selected Node
-Create Tools In Context
-Set UI to Compact Mode
-Startup with a specific Desktop
+- Disable Nodes Shapes
+- Use Simple Node Shapes
+- Disable Auto Move Nodes
+- Disable Nodes Animations
+- Set Low Size to Show Ring
+- Show Displayed Node instead of Selected Node
+- Create Tools In Context
+- Set UI to Compact Mode
+- Startup with a specific Desktop
 
 ## On Scene Open
-Apply the default Desktop
-Set Cooking mode to Manual
-Set view to “Show Display Operator” Not possible yet
-Set view to “Hide other objects” Not possible yet
+- Apply the default Desktop
+- Set Cooking mode to Manual
+- Set view to “Show Display Operator” ~~Not possible yet~~
+- Set view to “Hide other objects” ~~Not possible yet~~
 
 This will make loading the scenes faster and more stable.
+
+
 
 {% include feature_row %} 
 
