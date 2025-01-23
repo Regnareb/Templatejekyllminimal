@@ -6,11 +6,10 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
-    - label: "<i class='fas fa-download'></i> Install now <button onclick=\"copy_to_clipboard('two')\" >⧉</button>"
+    - label: "<i class='fas fa-download'></i> Install now"
       url: "/docs/quick-start-guide/"
 excerpt: >
-  A collection of tools to set default preferences automatically and make Houdini more usable and stable.<br />
-  To install: <a href="https://raw.githubusercontent.com/Regnareb/Houdini/refs/heads/main/python2.7libs/tools/installer.py">paste this script</a> to Houdini > Window > Python Source Editor > Accept
+  A collection of tools to set default preferences automatically and make Houdini more usable and <acronym title="https://raw.githubusercontent.com/Regnareb/Houdini/refs/heads/main/python2.7libs/tools/installer.py" >stable</acronym>.<br />
   <small><a href="https://github.com/Regnareb/Houdini/releases">Latest release v0.3.1</a></small>
 feature_row:
   - video_path: /assets/videos/auto_connect_nodes.mp4
