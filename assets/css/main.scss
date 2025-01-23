@@ -9,6 +9,15 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 
+.archive__item {
+  margin: 0px;
+  padding: 0px;
+  a {
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
 .archive__item-teaser {
   margin: 0px;
   padding: 0px;
