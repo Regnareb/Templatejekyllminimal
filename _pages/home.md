@@ -10,7 +10,7 @@ header:
       url: "/docs/quick-start-guide/"
 excerpt: >
   A collection of tools to set default preferences automatically and make Houdini more usable and <acronym title="https://raw.githubusercontent.com/Regnareb/Houdini/refs/heads/main/python2.7libs/tools/installer.py" >stable</acronym>.<br />
-  <small><a href="https://github.com/Regnareb/Houdini/releases">Latest release v0.3.1</a></small>
+  <small><a href="https://github.com/Regnareb/Houdini/releases/latest">Latest release v0.3.1</a></small>
 feature_row:
   - video_path: /assets/videos/auto_connect_nodes.mp4
     title: "Super customizable"
@@ -31,7 +31,13 @@ feature_row:
     excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
     url: "/docs/license/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "Learn more"
+  - video_path: /assets/videos/auto_connect_nodes.mp4
+    title: "Super customizable"
+    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+    url: "/docs/configuration/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"   
 ---
 
 {% include feature_row %} 
