@@ -65,6 +65,7 @@ feature_row:
 
 This will make loading the scenes faster and more stable.
 </div>
+</div>
 
 
 {% include feature_row %} 
