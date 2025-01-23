@@ -80,7 +80,7 @@ This will make loading the scenes faster and more stable.
 
 # Network View Improvements 
 
-<br>
+<br/>
 
 {% include feature_row %} 
 
