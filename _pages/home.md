@@ -42,6 +42,9 @@ feature_row:
     btn_label: "Learn more"   
 ---
 
+
+<div class="row">
+  <div class="column">
 ## Default Preferences
 - Disable Nodes Shapes
 - Use Simple Node Shapes
@@ -52,7 +55,8 @@ feature_row:
 - Create Tools In Context
 - Set UI to Compact Mode
 - Startup with a specific Desktop
-
+</div>
+<div class="column">
 ## On Scene Open
 - Apply the default Desktop
 - Set Cooking mode to Manual
@@ -60,7 +64,7 @@ feature_row:
 - Set view to “Hide other objects” ~~Not possible yet~~
 
 This will make loading the scenes faster and more stable.
-
+</div>
 
 
 {% include feature_row %} 
