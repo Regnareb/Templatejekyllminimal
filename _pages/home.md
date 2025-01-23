@@ -61,8 +61,6 @@ feature_row:
 
 </div>
 <div class="column" markdown="1" >
-
-<hr>
   
 ## On Scene Open
 - Apply the default Desktop
@@ -76,6 +74,8 @@ This will make loading the scenes faster and more stable.
 </div>
 </div>
 
+
+<hr>
 
 {% include feature_row %} 
 
