@@ -19,11 +19,11 @@ search: false
 
 .feature__item { 
   a {
-    color: inherit; /* blue colors for links too */
+    color: inherit; 
     text-decoration: inherit; 
-    background-color: grey !important;
+    background-color: grey;
      &:hover { 
-          color: inherit; /* blue colors for links too */
+          color: inherit; 
           text-decoration: inherit; 
           background-color: grey;
         }
