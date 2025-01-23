@@ -38,15 +38,15 @@ feature_row:
     url: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - video_path: /assets/videos/node_preview.mp4
-    title: "Create Node Previews"
-    excerpt: "Put a preview of the node like TouchDesigner. Very slow and experimental"
-    url: "/docs/configuration/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
   - video_path: /assets/videos/cycle_display.mp4
     title: "Improved Cycle Display"
     excerpt: "Cycle display flag between all selected nodes. Continue working after deselecting them"
+    url: "/docs/configuration/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - video_path: /assets/videos/node_preview.mp4
+    title: "Create Node Previews"
+    excerpt: "Put a preview of the node like TouchDesigner. Very slow and experimental"
     url: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
@@ -63,7 +63,7 @@ feature_row:
   <div class="column" markdown="1"  >
 
     
-# Default Preferences
+## Default Preferences
 - Disable Nodes Shapes
 - Use Simple Node Shapes
 - Disable Auto Move Nodes
@@ -78,7 +78,7 @@ feature_row:
 </div>
 <div class="column" markdown="1" >
   
-# On Scene Open
+## On Scene Open
 
 - Apply the default Desktop
 - Set Cooking mode to Manual
@@ -94,14 +94,14 @@ This will make loading the scenes faster and more stable.
 
 <hr>
 
-# Network View Improvements 
+## Network View Improvements 
 
 <br/>
 
 {% include feature_row %} 
 
 
-# Shortcuts
+## Shortcuts
 - Paste parameters (Ctrl+Shift+C / Ctrl+Shift+V)
 - Change particle types of display (Shift+D)
 - Show dependency links (Ctrl+D)
