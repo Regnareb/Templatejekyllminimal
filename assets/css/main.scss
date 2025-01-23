@@ -45,3 +45,12 @@ search: false
         padding-right: 0;
     }
 }
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
