@@ -43,7 +43,7 @@ feature_row:
 ---
 
 
-<div class="row" markdown="1>
+<div class="row" markdown="1" >
   <div class="column">
 
     
