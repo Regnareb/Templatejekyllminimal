@@ -33,3 +33,15 @@ search: false
 .page__content .archive__item-title {
     margin-top: 0.5em;
 }
+
+
+
+.page {
+    @include breakpoint($large) {
+        padding-right: 0;
+    }
+
+    @include breakpoint($x-large) {
+        padding-right: 0;
+    }
+}
