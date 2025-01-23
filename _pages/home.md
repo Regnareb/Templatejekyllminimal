@@ -6,7 +6,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
+    - label: "<i class='fas fa-download'></i> Install now <button  onclick='copy_to_clipboard()' class='btn btn--light-outline btn--large copy'>⧉</button>"
       url: "/docs/quick-start-guide/"
 excerpt: >
   A collection of tools to set default preferences automatically and make Houdini more usable and <acronym title="https://raw.githubusercontent.com/Regnareb/Houdini/refs/heads/main/python2.7libs/tools/installer.py" >stable</acronym>.<br />
