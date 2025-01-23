@@ -62,7 +62,7 @@ feature_row:
 </div>
 <div class="column" markdown="1" >
 
-
+<hr>
   
 ## On Scene Open
 - Apply the default Desktop
