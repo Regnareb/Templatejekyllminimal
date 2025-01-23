@@ -50,7 +50,7 @@ feature_row:
     url: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-    - video_path: /assets/videos/change_viewport_color.mp4
+  - video_path: /assets/videos/change_viewport_color.mp4
     title: "Change Viewport Color"
     excerpt: "Add a shortcut to switch the background color of viewports"
     url: "/docs/configuration/"
