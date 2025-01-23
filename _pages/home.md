@@ -14,29 +14,45 @@ excerpt: >
   A collection of tools to set default preferences automatically and make Houdini more usable and <acronym title="https://raw.githubusercontent.com/Regnareb/Houdini/refs/heads/main/python2.7libs/tools/installer.py" >stable</acronym>.<br />
   <small><a href="https://github.com/Regnareb/Houdini/releases/latest">Latest release v0.3.1</a></small>
 feature_row:
-  - video_path: /assets/videos/auto_connect_nodes.mp4
+  - video_path: /assets/videos/propagate_display.mp4
     title: "Propagate display flag to children"
     excerpt: "Each time you connect a node to one with a display flag, the flag is transferred to the new one"
     url: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - video_path: /assets/videos/auto_connect_nodes.mp4
-    alt: "fully responsive"
-    title: "Create object merge from clipboard (Ctrl+C Alt+V)"
-    excerpt: "create an Object merge with references to all copied nodes"
+  - video_path: /assets/videos/paste_object_merge.mp4
+    title: "Create object merge from clipboard"
+    excerpt: "Create an Object merge with references to all copied nodes (Alt+V)"
     url: "/docs/layouts/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - video_path: /assets/videos/auto_connect_nodes.mp4
-    alt: "100% free"
+  - video_path: /assets/videos/create_nulls.mp4
     title: "Alt+click to create Nulls"
     excerpt: "automatically create Nulls with correct names for all selected nodes"
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - video_path: /assets/videos/auto_connect_nodes.mp4
+  - video_path: /assets/videos/connect_all_nodes.mp4
     title: "Connect nodes by height position"
     excerpt: "press Shift+Y amd all selected nodes will be connected in the order of their height"
+    url: "/docs/configuration/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - video_path: /assets/videos/node_preview.mp4
+    title: "Create Node Previews"
+    excerpt: "Put a preview of the node like TouchDesigner. Very slow and experimental"
+    url: "/docs/configuration/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - video_path: /assets/videos/cycle_display.mp4
+    title: "Improved Cycle Display"
+    excerpt: "Cycle display flag between all selected nodes. Continue working after deselecting them"
+    url: "/docs/configuration/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+    - video_path: /assets/videos/change_viewport_color.mp4
+    title: "Change Viewport Color"
+    excerpt: "Add a shortcut to switch the background color of viewports"
     url: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"   
