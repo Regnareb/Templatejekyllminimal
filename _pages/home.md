@@ -13,24 +13,24 @@ header:
 excerpt: >
   A collection of tools to set default preferences automatically and make Houdini more usable and <acronym title="https://raw.githubusercontent.com/Regnareb/Houdini/refs/heads/main/python2.7libs/tools/installer.py" >stable</acronym>.<br />
   <small><a href="https://github.com/Regnareb/Houdini/releases/latest">Latest release v0.3.1</a></small>
-feature_row2:
+feature_row:
   - video_path: /assets/videos/auto_connect_nodes.mp4
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+    title: "Propagate display flag to children"
+    excerpt: "Each time you connect a node to one with a display flag, the flag is transferred to the new one"
     url: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/videos/auto_connect_nodes.mp4
+  - video_path: /assets/videos/auto_connect_nodes.mp4
     alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
+    title: "Create object merge from clipboard (Ctrl+C Alt+V)"
+    excerpt: "create an Object merge with references to all copied nodes"
     url: "/docs/layouts/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
+  - video_path: /assets/images/mm-free-feature.png
     alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
+    title: "Alt+click to create Nulls"
+    excerpt: "automatically create Nulls with correct names for all selected nodes"
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
