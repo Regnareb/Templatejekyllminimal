@@ -22,7 +22,7 @@
             {% endif %}
 
             {% if f.video_path %}
-            <video style="width:100%" playsinline="" autoplay="" muted="" loop="">
+            <video playsinline="" autoplay="" muted="" loop="">
               <source src="{{ f.video_path | relative_url }}" type="video/mp4">
             </video>
             {% endif %}
