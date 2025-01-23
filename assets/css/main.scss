@@ -18,7 +18,7 @@ search: false
 } 
 
 .archive__item { 
-  a {
+  a, a:hover {
     color: inherit; /* blue colors for links too */
     text-decoration: inherit; 
     background-color: grey;
