@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
     - label: "<i class='fas fa-download'></i> Install now 
-   <button onclick="copy_to_clipboard()">⧉</button>"
+   <button>"
       url: "/docs/quick-start-guide/"
 excerpt: >
   A collection of tools to set default preferences automatically and make Houdini more usable and stable.<br />
