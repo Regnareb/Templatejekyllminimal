@@ -8,7 +8,7 @@ permalink: /how-to-install
 
 ## How to install
 
-<span class="install">Paste [**this script**](https://raw.githubusercontent.com/Regnareb/Houdini/refs/tags/v0.3.1/python2.7libs/tools/installer.py) to **Houdini > Window > Python Source Editor > Accept**</span>
+Paste [**this script**](https://raw.githubusercontent.com/Regnareb/Houdini/refs/tags/v0.3.1/python2.7libs/tools/installer.py) to **Houdini > Window > Python Source Editor > Accept**{: .notice--success}
 <br>
 
 Here is what the script does:
