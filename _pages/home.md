@@ -70,7 +70,7 @@ feature_row7:
   <div class="column" markdown="1"  >
 
     
-## Default Preferences
+# Default Preferences
 - Disable Nodes Shapes
 - Use Simple Node Shapes
 - Disable Auto Move Nodes
@@ -85,7 +85,7 @@ feature_row7:
 </div>
 <div class="column" markdown="1" >
   
-## On Scene Open
+# On Scene Open
 
 - Apply the default Desktop
 - Set Cooking mode to Manual
@@ -101,7 +101,7 @@ This will make loading the scenes faster and more stable.
 
 <hr>
 
-## Network View Improvements 
+# Network View Improvements 
 
 <br/>
 
@@ -121,16 +121,12 @@ This will make loading the scenes faster and more stable.
 {% include feature_row id="feature_row7" type="left" %}
 
 
-## Shortcuts
+# Shortcuts
 - Paste parameters (Ctrl+Shift+C / Ctrl+Shift+V)
 - Change particle types of display (Shift+D)
 - Show dependency links (Ctrl+D)
 - Toggle cooking mode (F10)
-- Changing viewport background color (Shift+B):
-
-
 - Scrub Timeline (K) (Video)
-
 - Network Clipboard - Send selected nodes to another user on the same network
 
 
