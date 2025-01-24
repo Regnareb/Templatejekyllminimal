@@ -12,7 +12,7 @@
 
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
 
-      {% if f.url and not f.url2 %}<a href="{{ f.url | relative_url }}">{% endif %}
+      {% if f.url and unless f.url2 %}<a href="{{ f.url | relative_url }}">{% endif %}
       <div class="archive__item">
 
 
@@ -52,7 +52,7 @@
         </div>
       </div>
 
-      {% if f.url and not f.url2 %}</a>{% endif %}
+      {% if f.url and unless f.url2 %}</a>{% endif %}
     </div>
   {% endfor %}
 
