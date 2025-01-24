@@ -22,8 +22,16 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: "dark"
+breadcrumbs: true
 search: false
+atom_feed:
+  hide: true
+compress_html:
+  clippings: all
+  comments: all
 
+
+  
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -74,11 +82,11 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
+      author_profile: false
+      read_time: false
       comments: true
       share: true
-      related: true
+      related: false
   # _pages
   - scope:
       path: "_pages"
