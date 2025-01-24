@@ -90,8 +90,8 @@ feature_row7:
 
 - Apply the default Desktop
 - Set Cooking mode to Manual
-- Set view to “Show Display Operator” ~~Not possible yet~~
-- Set view to “Hide other objects” ~~Not possible yet~~
+- ~~Set view to "Show Display Operator"~~ Not possible yet
+- ~~Set view to "Hide other objects"~~ Not possible yet
 
 This will make loading the scenes faster and more stable.
 
