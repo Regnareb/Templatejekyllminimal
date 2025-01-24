@@ -12,7 +12,7 @@
 
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
 
-      {% if f.url %}<a href="{{ f.url | relative_url }}">{% endif %}
+      {% if f.url and !f.url2 %}<a href="{{ f.url | relative_url }}">{% endif %}
       <div class="archive__item">
 
 
@@ -35,6 +35,8 @@
         {% endif %}
 
         <div class="archive__item-body">
+          {% if f.url and f.url2 %}<a href="{{ f.url | relative_url }}">{% endif %}
+
           {% if f.title %}
             <h2 class="archive__item-title">{{ f.title }}</h2>
           {% endif %}
@@ -45,12 +47,12 @@
             </div>
           {% endif %}
 
-
+          {% if f.url and f.url2 %}</a>{% endif %}
 
         </div>
       </div>
 
-      {% if f.url %}</a>{% endif %}
+      {% if f.url and !f.url2 %}</a>{% endif %}
     </div>
   {% endfor %}
 
