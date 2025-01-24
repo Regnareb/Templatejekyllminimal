@@ -19,6 +19,7 @@ feature_row1:
     title: "Propagate display flag to children"
     excerpt: "Each time you connect a node to one with a display flag, the flag is transferred to the new one"
     url: "/docs/configuration/"
+    url2: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
 feature_row2:
@@ -26,6 +27,7 @@ feature_row2:
     title: "Create object merge from clipboard"
     excerpt: "Create an Object merge with references to all copied nodes (Alt+V)"
     url: "/docs/layouts/"
+    url2: "/docs/layouts/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
 feature_row3:
@@ -33,6 +35,7 @@ feature_row3:
     title: "Alt+click to create Nulls"
     excerpt: "automatically create Nulls with correct names for all selected nodes"
     url: "/docs/license/"
+    url2: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
 feature_row4:
@@ -40,6 +43,7 @@ feature_row4:
     title: "Connect nodes by height position"
     excerpt: "press Shift+Y amd all selected nodes will be connected in the order of their height"
     url: "/docs/configuration/"
+    url2: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
 feature_row5:
@@ -47,6 +51,7 @@ feature_row5:
     title: "Improved Cycle Display"
     excerpt: "Cycle display flag between all selected nodes. Continue working after deselecting them"
     url: "/docs/configuration/"
+    url2: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
 feature_row6:
@@ -54,6 +59,7 @@ feature_row6:
     title: "Create Node Previews"
     excerpt: "Put a preview of the node like TouchDesigner. Very slow and experimental"
     url: "/docs/configuration/"
+    url2: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
 feature_row7:
@@ -61,6 +67,7 @@ feature_row7:
     title: "Change Viewport Color"
     excerpt: "Add a shortcut to switch the background color of viewports"
     url: "/docs/configuration/"
+    url2: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
 ---
