@@ -8,7 +8,7 @@ permalink: /how-to-install
 
 ## How to install
 
-Paste [**this script**](https://raw.githubusercontent.com/Regnareb/Houdini/refs/tags/v0.3.1/python2.7libs/tools/installer.py) to **Houdini > Window > Python Source Editor > Accept**
+Paste [**this script**](https://raw.githubusercontent.com/Regnareb/Houdini/refs/tags/v0.3.1/python2.7libs/tools/installer.py) to **Houdini > Window > Python Source Editor > Accept** <button title="Copy and paste the code and execute it in Python Source Editor" onclick="copy_to_clipboard(\"https://raw.githubusercontent.com/Regnareb/Houdini/refs/heads/main/python2.7libs/tools/installer.py\")" class="btn btn--light-outline btn--large copy">⧉</button>
 {: .notice--success}
 <br>
 
