@@ -21,6 +21,7 @@ Here is what the script does:
 
 If everything is working fine, it should show that window on the next start of Houdini:
 
+
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/first_launch.png" alt="">
 
 
