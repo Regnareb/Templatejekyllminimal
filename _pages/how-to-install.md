@@ -20,12 +20,15 @@ Here is what the script does:
 
 
 If everything is working fine, it should show that window on the next start of Houdini:
-![]({{site.baseurl}}/assets/images/first_launch.png)
+
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/first_launch.png" alt="">
+
 
 For more tool preferences, activate the Regnareb shelf and press the Preferences button.  
 You can also auto-update the tools by clicking the Update button.
 
-![]({{site.baseurl}}/assets/images/preferences.png)
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/preferences.png" alt="">
+
 
 ### For Developers
 You can download the code by doing
