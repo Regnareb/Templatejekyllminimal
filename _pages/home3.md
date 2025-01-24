@@ -1,7 +1,7 @@
 ---
 layout: splash
 classes: wide
-permalink: /
+permalink: /home3
 hidden: false
 header:
   overlay_color: "#5e616c"
