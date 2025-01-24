@@ -1,4 +1,5 @@
 ---
+minimal_mistakes_skin: "air"
 layout: splash
 classes: wide
 permalink: /
