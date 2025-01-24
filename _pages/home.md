@@ -18,7 +18,6 @@ feature_row1:
   - video_path: /assets/videos/propagate_display.mp4
     title: "Propagate display flag to children"
     excerpt: "Each time you connect a node to one with a display flag, the flag is transferred to the new one"
-    url: "/docs/configuration/"
     url2: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
@@ -26,7 +25,6 @@ feature_row2:
   - video_path: /assets/videos/paste_object_merge.mp4
     title: "Create object merge from clipboard"
     excerpt: "Create an Object merge with references to all copied nodes (Alt+V)"
-    url: "/docs/layouts/"
     url2: "/docs/layouts/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
@@ -34,7 +32,6 @@ feature_row3:
   - video_path: /assets/videos/create_nulls.mp4
     title: "Alt+click to create Nulls"
     excerpt: "automatically create Nulls with correct names for all selected nodes"
-    url: "/docs/license/"
     url2: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
@@ -42,7 +39,6 @@ feature_row4:
   - video_path: /assets/videos/connect_all_nodes.mp4
     title: "Connect nodes by height position"
     excerpt: "press Shift+Y amd all selected nodes will be connected in the order of their height"
-    url: "/docs/configuration/"
     url2: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
@@ -50,7 +46,6 @@ feature_row5:
   - video_path: /assets/videos/cycle_display.mp4
     title: "Improved Cycle Display"
     excerpt: "Cycle display flag between all selected nodes. Continue working after deselecting them"
-    url: "/docs/configuration/"
     url2: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
@@ -58,7 +53,6 @@ feature_row6:
   - video_path: /assets/videos/node_preview.mp4
     title: "Create Node Previews"
     excerpt: "Put a preview of the node like TouchDesigner. Very slow and experimental"
-    url: "/docs/configuration/"
     url2: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
@@ -66,7 +60,6 @@ feature_row7:
   - video_path: /assets/videos/change_viewport_color.mp4
     title: "Change Viewport Color"
     excerpt: "Add a shortcut to switch the background color of viewports"
-    url: "/docs/configuration/"
     url2: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
