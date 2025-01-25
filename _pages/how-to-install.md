@@ -15,13 +15,15 @@ It will download and put the files in the right places, all you have to do is re
 
 <br>
 
-<div class="notice">
+{% capture notice-2 %}
   Here is what the script does:
  * Download the [latest release](https://github.com/Regnareb/Houdini/releases/latest/download/Houdini-tools.zip) 
  * Extract its content to the Houdini prefs folder 
  * Modify the file `Houdini-tools/REGNAREB.json`, replace `$REGNAREB` with the path to the folder of the folder `Houdini-tools`  
  * Move the `REGNAREB.json` file in a `packages` folder of your Houdini preferences folder
-</div>
+{% endcapture %}
+
+<div class="notice">{{ notice-2 | markdownify }}</div>
 
 
 If everything is working fine, it should show that window on the next start of Houdini:
