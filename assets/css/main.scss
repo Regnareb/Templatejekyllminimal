@@ -23,9 +23,9 @@ search: false
     text-decoration: inherit; 
     background-color: grey;
      &:hover { 
-         background-color: grey;
-          text-decoration: inherit !important; 
-        }
+        background-color: grey;
+        text-decoration: inherit !important; 
+    }
   } 
 }
 
@@ -38,13 +38,23 @@ search: false
 .row {
   display: flex;
 }
-
 .column {
   flex: 50%;
 }
 
 
+.copy {
+  color: #333;
+  background-color: #fff;
+    &:hover {
+      background-color: #afa;
+    }
+}
+
 
 .notice--success {
-    font-size: 1.15em !important;
+  font-size: 1.15em !important;
+    button {
+      
+  }
 }
