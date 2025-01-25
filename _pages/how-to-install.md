@@ -7,7 +7,7 @@ toc: true
 
 # How to install
 
-<p class="notice--success">Paste this <a href="https://raw.githubusercontent.com/Regnareb/Houdini/refs/tags/v0.3.1/python2.7libs/tools/installer.py"><strong>script</strong></a> <a href="#" title="Copy the code and execute it in Python Source Editor" onclick="copy_to_clipboard(&quot;https://raw.githubusercontent.com/Regnareb/Houdini/refs/heads/main/python2.7libs/tools/installer.py&quot;);return false;" class="copy">⧉</a> to <i>Houdini &gt; Window &gt; Python Source Editor &gt; Accept</i>
+<p class="notice--success">Paste this <a href="https://raw.githubusercontent.com/Regnareb/Houdini/refs/tags/v0.3.1/python2.7libs/tools/installer.py"><strong>script</strong></a> <a href="#" title="Click to copy the code" onclick="copy_to_clipboard(&quot;https://raw.githubusercontent.com/Regnareb/Houdini/refs/heads/main/python2.7libs/tools/installer.py&quot;);return false;" class="copy">⧉</a> to <i>Houdini &gt; Window &gt; Python Source Editor &gt; Accept</i>
 <br><br>
 It will download and put the files in the right places, all you have to do is restart Houdini.
 </p>
