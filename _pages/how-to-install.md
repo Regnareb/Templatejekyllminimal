@@ -1,7 +1,6 @@
 ---
 permalink: /how-to-install/
 layout: single
-toc: true
 ---
 
 # How to install
