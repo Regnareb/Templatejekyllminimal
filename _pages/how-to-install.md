@@ -1,7 +1,7 @@
 ---
 layout: splash
 classes: wide
-permalink: /how-to-install
+permalink: /how-to-install/
 ---
 
 
