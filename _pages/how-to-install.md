@@ -30,7 +30,7 @@ It will download and put the files in the right places, all you have to do is re
 If everything works fine, it should show that window on the next start of Houdini:
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/first_launch.png" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/first_launch.png" class"center" alt="">
 
 
 For more tool preferences, activate the Regnareb shelf and press the Preferences button.  
