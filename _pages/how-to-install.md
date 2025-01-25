@@ -1,12 +1,11 @@
 ---
 permalink: /how-to-install/
 layout: single
+classes: wide
 toc: true
 toc_label: "Unique Title"
 toc_icon: "heart"
 ---
-
-
 
 # How to install
 
