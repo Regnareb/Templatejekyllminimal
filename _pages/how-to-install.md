@@ -1,6 +1,4 @@
 ---
-layout: splash
-classes: wide
 permalink: /how-to-install/
 toc: true
 ---
