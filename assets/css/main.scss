@@ -42,3 +42,10 @@ search: false
 .column {
   flex: 50%;
 }
+
+
+
+.notice--success {
+    @include .notice--success
+    font-size: 1.25em !important;
+}
