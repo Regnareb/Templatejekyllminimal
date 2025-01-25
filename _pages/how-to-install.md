@@ -1,11 +1,12 @@
 ---
 permalink: /how-to-install/
+layout: single
 toc: true
 toc_label: "Unique Title"
 toc_icon: "heart"
 ---
 
-{% include toc %}
+
 
 # How to install
 
