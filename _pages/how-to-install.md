@@ -5,7 +5,7 @@ toc_label: "Unique Title"
 toc_icon: "heart"
 ---
 
-<br>
+{% include toc %}
 
 # How to install
 
