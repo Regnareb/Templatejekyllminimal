@@ -14,7 +14,6 @@ toc_icon: "heart"
 It will download and put the files in the right places, all you have to do is restart Houdini.
 </p>
 
-<br>
 
 {% capture notice-2 %}
   Here is what the script does:
