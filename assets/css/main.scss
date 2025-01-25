@@ -46,6 +46,6 @@ search: false
 
 
 .notice--success {
-    @extend .feature__wrapper;
+    @extend .notice--success;
     font-size: 1.25em !important;
 }
