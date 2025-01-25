@@ -22,6 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: "dark"
+masthead_title: ""
 enable_copy_code_button: true
 breadcrumbs: false
 search: false
