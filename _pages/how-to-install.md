@@ -2,6 +2,7 @@
 layout: splash
 classes: wide
 permalink: /how-to-install/
+toc: true
 ---
 
 
@@ -26,7 +27,7 @@ It will download and put the files in the right places, all you have to do is re
 <div class="notice">{{ notice-2 | markdownify }}</div>
 
 
-If everything is working fine, it should show that window on the next start of Houdini:
+If everything works fine, it should show that window on the next start of Houdini:
 
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/first_launch.png" alt="">
@@ -38,13 +39,13 @@ You can also auto-update the tools by clicking the Update button.
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/preferences.png" alt="">
 
 
-### For Developers
+# How to uninstall
+
+If you want to uninstall the tools, just delete the file `packages/regnareb.json` in your Houdini preferences 
+
+
+# For Developers
 You can download the code by doing
 ```
 git clone --recurse-submodules -c core.symlinks=true --remote-submodules https://github.com/Regnareb/Houdini.git
 ```
-
-
-# How to uninstall
-
-If you want to uninstall the tools, just delete the file `packages/regnareb.json` in your Houdini preferences 
