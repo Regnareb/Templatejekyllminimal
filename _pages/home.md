@@ -10,7 +10,7 @@ header:
     - label: "<i class='fas fa-download'></i> Install now"
       url: "/docs/quick-start-guide/"
       copy_url: "https://raw.githubusercontent.com/Regnareb/Houdini/refs/heads/main/python2.7libs/tools/installer.py"
-      copy_title: "Copy the code and execute it in Python Source Editor"
+      copy_title: "Click to copy the code and then execute it in Python Source Editor"
 excerpt: >
   A collection of tools to set default preferences automatically and make Houdini more usable and stable.<br />
   <small><a href="https://github.com/Regnareb/Houdini/releases/latest">Latest release v0.3.1</a></small>
