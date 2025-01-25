@@ -3,7 +3,6 @@ permalink: /how-to-install/
 layout: single
 ---
 
-# How to install
 
 <p class="xnotice--success">Paste this <a href="https://raw.githubusercontent.com/Regnareb/Houdini/refs/tags/v0.3.1/python2.7libs/tools/installer.py"><strong>script</strong></a> <a href="#" title="Click to copy the code" onclick="copy_to_clipboard(&quot;https://raw.githubusercontent.com/Regnareb/Houdini/refs/heads/main/python2.7libs/tools/installer.py&quot;);return false;" class="btn--light-outline">⧉</a> to <i>Houdini &gt; Window &gt; Python Source Editor &gt; Accept</i>
 <br><br>
