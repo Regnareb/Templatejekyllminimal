@@ -41,6 +41,7 @@ If you want to uninstall the tools, just delete the file `packages/regnareb.json
 
 # For Developers
 You can download the code by doing
-```
+
+```shell
 git clone --recurse-submodules -c core.symlinks=true --remote-submodules https://github.com/Regnareb/Houdini.git
 ```
