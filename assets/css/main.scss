@@ -120,11 +120,10 @@ search: false
 
 .card{
   margin: 0 auto;
-  padding: 2em;
-  width: 300px;
+  xpadding: 2em;
   background: #1c1f2b;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 4px;
   position: relative;
 }
 
@@ -145,7 +144,7 @@ search: false
   translate: -50% -50%;
   z-index: -1;
   padding: 3px;
-  border-radius: 10px;
+  border-radius: 4px;
   animation: 3s spin linear infinite;
 }
 .card::before{
