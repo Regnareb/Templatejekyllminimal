@@ -57,6 +57,7 @@ search: false
 
 
 .notice--success {
+  position: relative;
   font-size: 1em !important;
 }
 
@@ -143,7 +144,7 @@ search: false
   top: 50%;
   left: 50%;
   translate: -50% -50%;
-  z-index: 0;
+  z-index: -1;
   padding: 3px;
   border-radius: 4px;
   animation: 3s spin linear infinite;
