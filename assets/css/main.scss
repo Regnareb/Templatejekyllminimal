@@ -59,6 +59,7 @@ search: false
 .notice--success {
   position: relative;
   font-size: 1em !important;
+  z-index: -1;
 }
 
 
@@ -126,7 +127,6 @@ search: false
   text-align: center;
   border-radius: 4px;
   position: relative;
-  z-index: 2;
 }
 
 @property --angle{
@@ -150,8 +150,8 @@ search: false
   animation: 3s spin linear infinite;
 }
 .card::before{
-  filter: blur(1.5rem);
-  opacity: 0.5;
+  filter: blur(0.7rem);
+  opacity: 0.7;
 }
 @keyframes spin{
   from{
