@@ -44,13 +44,15 @@ search: false
 
 
 .copy {
-  --fa: "\f0c5";
   font-family: "Font Awesome 6 Free";
   color: #000;
   background-color: #008000;
-    &:hover {
+  &:hover {
       background-color: #0B6623;
     }
+  &:focus {
+    background-color: #008000;
+  }
 }
 
 
@@ -98,6 +100,10 @@ search: false
     left: 0;
     top: 0;
     border-radius: 4px;
+}
+
+.glow-on-hover:after:focus {
+  background: #008000;
 }
 
 @keyframes glowing {
